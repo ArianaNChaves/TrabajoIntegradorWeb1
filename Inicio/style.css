@@ -1,0 +1,80 @@
+:root{
+  --fuentePrincipal: 'PT Sans', sans-serif;
+  /* Paleta de colores */
+  --marronClaro: #CEB992;
+  --marronOscuro: #6E5527;
+  --letraOscura: #333333;
+  --letraClara: #EEEEEE;
+}
+
+html{
+  box-sizing: border-box;
+  background-color: var(--marronOscuro);
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+body{
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1; /*interlineado*/
+
+}
+h2{
+  font-family: var(--fuentePrincipal);
+  color: var(--letraClara);
+  font-size: 150px;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+/* Header*/
+.header{
+  background-image: url(/Img/PlaceHolder-Background.jpg);
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media(min-width: 768px){
+  .barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imagenLogo{
+    height: 10rem;
+
+  }
+  
+}
+
+.logo{
+  margin: 0;
+  align-items: center;
+  
+}
+
+@media(min-width: 768px){
+  .navegacion{
+    display: flex;
+    gap: 2rem;
+  }
+
+}
+
+.navegacion_enlace{
+  color: #EEEEEE;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+font-size: 3rem;
+}
+  
