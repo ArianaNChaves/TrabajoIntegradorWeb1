@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Catfe - Contacto</title>
+    <link rel="stylesheet" type="text/css" href="contact_style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">Catfe</div>
+      <img src="images/gatologo.png" alt="logo" class="logo-img">
+      <ul class="nav-items">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="cafes.html">Cafes</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="form" id="contact-form">
+            <h1>Contactanos para reservar un turno</h1>
+                <form class="cf">
+                <div class="half left cf">
+                    <input type="text" id="input-name" placeholder="Nombre">
+                    <input type="text" id="input-email" placeholder="Email">
+                    <input type="text" id="input-subject" placeholder="Asunto">
+                </div>
+                <div class="half right cf">
+                    <textarea name="message" type="text" id="input-message" placeholder="Mensaje"></textarea>
+                </div>  
+                <input type="submit" value="Enviar" id="input-submit">
+                </form>
+        </div>
+
+        
+    <div id="error-list">
+
+    </div>
+    </div>
+
+  
+    <script src="formulario.js"></script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+:root {
+    --main-color:   
+    --secondary-color:
+    --third-color:
+}
+
+@font-face {
+  font-family: font;
+  src: url(fonts/Banabo.ttf)
+}
+
+html {
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(78, 78, 79) 0%, rgb(137, 137, 137) 83%, rgb(92, 92, 92) 100%);
+  font-family: font;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+   background-color: rgb(243, 242, 242);
+   padding: 40px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.navbar {
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+  margin-left: 30px;
+  font-family: font;
+  margin-bottom: 0px;
+}
+
+.logo-img {
+  width: 190px;
+  height: auto;
+  margin-right: 700px;
+  margin-top: 0px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-right: 30px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-size: 45px;
+  font-family: font;
+}
+
+ form {
+    max-width: 100%;
+    text-align: center;
+    margin: 20px auto;
+ }
+    h1 {
+      font-family: font;
+   }
+    input, textarea {
+      padding: 1em;
+      font-size: 20px;
+      border-radius: 8px;
+      display: block;
+      width: 100%;
+      margin-top: 1em;
+      font-family: font;
+      box-shadow: 0 1px 1px rgba(black, 0.1);
+      resize: none;
+    }
+     
+   #input-submit {
+      color: white; 
+      background: #333;
+      cursor: pointer;
+     
+   }
+   
+   textarea {
+       height: 243px;
+   }
+ 
+ 
+ 
+ .half {
+   float: left;
+   width: 48%;
+   margin-bottom: 1em;
+ }
+ 
+ .right { width: 50%; }
+ 
+ .left {
+      margin-right: 2%; 
+ }
+
+ #error-list {
+  font-size: 24px;
+  color: red;
+ }
